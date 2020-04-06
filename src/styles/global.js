@@ -2,8 +2,8 @@ import { createGlobalStyle } from "styled-components"
 
 const GlobalStyles = createGlobalStyle`
   /* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
+  v2.0 | 20110126
+  License: none (public domain)
   */
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -59,8 +59,8 @@ const GlobalStyles = createGlobalStyle`
   }
   img {
     display: block;
-  	width: 100%;
-  	height: auto;
+    width: 100%;
+    height: auto;
   }
 
   body.dark {
@@ -74,7 +74,7 @@ const GlobalStyles = createGlobalStyle`
     --black: #222;
   }
 
-  body {
+  body.light {
     --borders: #dedede;
     --postColor: #111;
     --texts: #555555;
