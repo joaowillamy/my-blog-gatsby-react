@@ -49,9 +49,7 @@ const MenuBar = () => {
           duration={0.6}
           title="Pesquisar"
         >
-          <S.MenuBarItem>
-            <Search />
-          </S.MenuBarItem>
+          <S.MenuBarItem>{/* <Search /> */}</S.MenuBarItem>
         </S.MenuBarLink>
       </S.MenuBarGroup>
       <S.MenuBarGroup>
