@@ -22,7 +22,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/static/assets/img`,
       },
     },
     {
@@ -59,13 +59,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `João Willamy`,
-        short_name: `João Willamy`,
+        name: `Blog - João Willamy`,
+        short_name: `Blog - João Willamy`,
         start_url: `/`,
         background_color: `#16202c`,
         theme_color: `#16202c`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `static/assets/img/codigo.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sitemap`,

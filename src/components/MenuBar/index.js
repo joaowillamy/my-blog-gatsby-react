@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react"
 
 import { Home } from "@styled-icons/boxicons-solid/Home"
-// import { SearchAlt2 as Search } from "@styled-icons/boxicons-regular/SearchAlt2"
-import { UpArrowAlt as Arrow } from "@styled-icons/boxicons-regular/UpArrowAlt"
+import { InfoCircle } from "@styled-icons/boxicons-solid/InfoCircle"
 import { Bulb as Light } from "@styled-icons/boxicons-regular/Bulb"
 import { Grid } from "@styled-icons/boxicons-solid/Grid"
 import { ThList as List } from "@styled-icons/typicons/ThList"
+// import { SearchAlt2 as Search } from "@styled-icons/boxicons-regular/SearchAlt2"
+// import { UpArrowAlt as Arrow } from "@styled-icons/boxicons-regular/UpArrowAlt"
 
 import getThemeColor from "../../utils/getThemeColor"
 
@@ -42,14 +43,16 @@ const MenuBar = () => {
           </S.MenuBarItem>
         </S.MenuBarLink>
         <S.MenuBarLink
-          to="/search/"
+          to="/about/"
           cover
           direction="right"
           bg={getThemeColor()}
           duration={0.6}
-          title="Pesquisar"
+          title="Sobre mim"
         >
-          <S.MenuBarItem>{/* <Search /> */}</S.MenuBarItem>
+          <S.MenuBarItem>
+            <InfoCircle />
+          </S.MenuBarItem>
         </S.MenuBarLink>
       </S.MenuBarGroup>
       <S.MenuBarGroup>
@@ -71,9 +74,9 @@ const MenuBar = () => {
         >
           {isListMode ? <Grid /> : <List />}
         </S.MenuBarItem>
-        <S.MenuBarItem title="Ir para o Topo">
+        {/* <S.MenuBarItem title="Ir para o Topo">
           <Arrow />
-        </S.MenuBarItem>
+        </S.MenuBarItem> */}
       </S.MenuBarGroup>
     </S.MenuBarWrapper>
   )
