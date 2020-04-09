@@ -1,10 +1,10 @@
 ---
 title: Exemplos práticos e Avançados de SCSS ou Sass
 description: Vamos aprender a usar o Sass na prática com alguns exemplos
-  práticos de SCSS e compartilho com você um projetilzinho legal.
+  práticos de SCSS, além de compartilho com você um projetilzinho legal.
 date: "2020-04-08 11:52:00"
-category: svg
-background: "#7d669e"
+category: SCSS
+background: "#ce6399"
 image: /assets/img/cover.png
 thumbnail: assets/img/scss.png
 ---
@@ -20,7 +20,7 @@ Mas Antes de tudo, você deve entender que um pré-processado Sass é: Um progra
 
 Da pra criar variáveis, fazer laços de repetição, funções e muito mais.
 
-### Mas... você sabe a diferença entre SCSS ou Sass?
+### A diferença entre SCSS ou Sass
 
 O Sass tem a sua própria sintaxe com sensibilidade à indentação, não possui ponto e virgula nem chaves, Já o **SCSS o** lema é: se é CSS válido, também é um SCSS valido.
 
@@ -34,7 +34,7 @@ Com isso já é possível pegar um arquivo .scss e converter em css, veja o coma
 
 `sass source/index.scss    build/index.css   -w`
 
-Agora estamos preparados e podemos começar a brincadeira brincar.
+Agora estamos preparados e podemos começar a brincadeira.
 
 ## As variáveis ​​também podem ser expandidas nos seletores:
 
@@ -130,9 +130,8 @@ p {
 }
 ```
 
-\
-Então esse são alguns exemplos interessantes do que pode ser feito com SCSS o que acharam???\
-\
+Então esse são alguns exemplos interessantes do que pode ser feito com SCSS o que acharam???
+
 Agora vamos falar sobre como organizar toda essa bagunça.
 
 ## Arquitetura
