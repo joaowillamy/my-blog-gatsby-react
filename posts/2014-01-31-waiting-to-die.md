@@ -149,7 +149,8 @@ O Padrão 7-1
 * `pages/`
 * `themes/`
 * `abstracts/`
-* \`vendors/\`
+* `vendors/`
+* `main.scss`
 
 ## Exemplo irado:
 
