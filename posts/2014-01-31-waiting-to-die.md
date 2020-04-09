@@ -91,8 +91,6 @@ article {
 }
 ```
 
-## \
-
 Tipo de dados em lista
 
 Pois é senhoras e senhores, é possível usar 
@@ -116,8 +114,6 @@ $buttonConfig: 'save' 50px, 'cancel' 50px, 'help' 100px; // TODO: move to _setti
   width: 100px;
 }
 ```
-
-## \
 
 Definindo Funções Customizadas
 
@@ -143,8 +139,6 @@ Agora vamos falar sobre como organizar toda essa bagunça.
 
 Criar a arquitetura de um projeto de CSS é uma das coisas mais difíceis que se pode fazer durante a vida de um projeto. Manter essa arquitetura constante e significativa é ainda mais difícil.
 
-### \
-
 O Padrão 7-1
 
 *O padrão 7-1*: 7 pastas, 1 ficheiro. Basicamente, tudo o que tens são ficheiros parciais colocados em 7 pastas diferentes, e um único ficheiro na raiz do projeto (normalmente chamado`main.scss`) que importa todos os ficheiros parciais para serem compilados numa única folha de estilo de CSS.
@@ -164,7 +158,3 @@ Caso queira vê um exemplo em um projeto na pratica veja no github um[ projeto q
 E é isso ai pessoal, obrigado!!!
 
 Até a próxima.
-
-``
-
-``
