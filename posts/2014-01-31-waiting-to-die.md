@@ -24,8 +24,6 @@ Da pra criar variáveis, fazer laços de repetição, funções e muito mais.
 
 O Sass tem a sua própria sintaxe com sensibilidade à indentação, não possui ponto e virgula nem chaves, Já o **SCSS o** lema é: se é CSS válido, também é um SCSS valido.
 
-
-
 ## Instalando
 
 Para instalar o Sass mas executar no terminal
@@ -34,11 +32,9 @@ Para instalar o Sass mas executar no terminal
 
 Com isso já é possível pegar um arquivo .scss e converter em css, veja o comando a baixo, onde passamos no primeiro parâmetro o **código de origem** depois onde o **código gerado** deve ficar, já o **\-w** é para identificar as alterações.
 
-` sass source/index.scss    build/index.css   -w`
+`sass source/index.scss    build/index.css   -w`
 
 Agora estamos preparados e podemos começar a brincadeira brincar.
-
-
 
 ## As variáveis ​​também podem ser expandidas nos seletores:
 
@@ -96,6 +92,7 @@ article {
 ```
 
 ## \
+
 Tipo de dados em lista
 
 Pois é senhoras e senhores, é possível usar 
@@ -121,6 +118,7 @@ $buttonConfig: 'save' 50px, 'cancel' 50px, 'help' 100px; // TODO: move to _setti
 ```
 
 ## \
+
 Definindo Funções Customizadas
 
 ```scss
@@ -146,6 +144,7 @@ Agora vamos falar sobre como organizar toda essa bagunça.
 Criar a arquitetura de um projeto de CSS é uma das coisas mais difíceis que se pode fazer durante a vida de um projeto. Manter essa arquitetura constante e significativa é ainda mais difícil.
 
 ### \
+
 O Padrão 7-1
 
 *O padrão 7-1*: 7 pastas, 1 ficheiro. Basicamente, tudo o que tens são ficheiros parciais colocados em 7 pastas diferentes, e um único ficheiro na raiz do projeto (normalmente chamado`main.scss`) que importa todos os ficheiros parciais para serem compilados numa única folha de estilo de CSS.
@@ -156,7 +155,7 @@ O Padrão 7-1
 * `pages/`
 * `themes/`
 * `abstracts/`
-* `vendors/```
+* \`vendors/\`
 
 ## Exemplo irado:
 
