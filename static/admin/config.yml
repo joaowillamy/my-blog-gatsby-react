@@ -2,7 +2,7 @@ backend:
   name: github
   repo: joaowillamy/my-blog-gatsby-react
   branch: master
-  site_domain: joaowillamy.tech/
+  site_domain: https://joaowillamy.tech/
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
