@@ -22,7 +22,7 @@ const BlogList = (props) => {
 			<SEO
 				title="Blog | João Willamy"
 				description="Um blog sobre desenvolvimento e outras coisas legais."
-				image={post.frontmatter.image}
+				// image={post.frontmatter.image}
 			/>
 			<S.ListWrapper>
 				{postList.map(
