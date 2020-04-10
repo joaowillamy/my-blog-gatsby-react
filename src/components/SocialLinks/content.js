@@ -1,25 +1,19 @@
-const handle = "johndoe"
-
 const links = [
   {
     label: "Github",
-    url: `https://github.com/${handle}`,
+    url: `https://github.com/joaowillamy`,
   },
   {
-    label: "Twitter",
-    url: `https://twitter.com/${handle}`,
-  },
-  {
-    label: "Youtube",
-    url: `https://www.youtube.com/${handle}`,
+    label: "Linkedin",
+    url: `https://www.linkedin.com/in/jo%C3%A3o-willamy-8aa9058a/`,
   },
   {
     label: "Instagram",
-    url: `https://www.instagram.com/${handle}`,
+    url: `https://www.instagram.com/joaowillamyy/`,
   },
   {
-    label: "Unsplash",
-    url: `https://unsplash.com/${handle}`,
+    label: "Twitter",
+    url: `https://twitter.com/willamyif`,
   },
 ]
 

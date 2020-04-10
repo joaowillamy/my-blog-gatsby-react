@@ -1,14 +1,14 @@
 ---
-title: Exemplos práticos e Avançados de SCSS ou Sass
+title: Exemplos práticos e avançados de SCSS ou Sass
 description: Vamos aprender a usar o Sass na prática com alguns exemplos
   práticos de SCSS, além de compartilho com você um projetilzinho legal.
 date: "2020-04-08 11:52:00"
 category: SCSS
 background: "#ce6399"
-image: /assets/img/cover.png
+image: assets/img/scss.png
 thumbnail: assets/img/scss.png
 ---
-E ai negada? de boas? Vamos conversar hoje sobre um assunto que eu gosto muito. Então aperte o cinto!
+E ai negada? de boas? Vamos conversar hoje sobre um assunto que eu gosto muito. Então apertem o cintos!
 
 ### O que é um pré-processador?
 
