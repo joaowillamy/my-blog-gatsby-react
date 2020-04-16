@@ -8,6 +8,7 @@ background: "#ce6399"
 image: assets/img/scss.png
 thumbnail: assets/img/scss.png
 ---
+
 E ai negada? de boas? Vamos conversar hoje sobre um assunto que eu gosto muito. Então apertem o cintos!
 
 ### O que é um pré-processador?
@@ -32,7 +33,7 @@ Para instalar o Sass mas executar no terminal
 
 Com isso já é possível pegar um arquivo .scss e converter em css, veja o comando a baixo, onde passamos no primeiro parâmetro o **código de origem** depois onde o **código gerado** deve ficar, já o **\-w** é para identificar as alterações.
 
-`sass source/index.scss    build/index.css   -w`
+`sass source/index.scss build/index.css -w`
 
 Agora estamos preparados e podemos começar a brincadeira.
 
@@ -42,7 +43,7 @@ Agora estamos preparados e podemos começar a brincadeira.
 $alert-class: "error";
 
 p.message-#{$alert-class} {
-    color: red;
+  color: red;
 }
 
 /* compiled CSS */
@@ -56,14 +57,14 @@ p.message-error {
 Condicionais e controle de fluxo, como **@if**:
 
 ```scss
-$debug: false; 
+$debug: false;
 
 article {
-    color: black;
+  color: black;
 
-    @if ($debug) {
-        border: 1px dotted red;
-    }
+  @if ($debug) {
+    border: 1px dotted red;
+  }
 }
 /* compiled CSS */
 article {
@@ -74,10 +75,10 @@ article {
 ### Também existem as diretivas de repetição como `@for`,`@each e` `@while`. Veja o exemplo:
 
 ```scss
-@each $name in 'save' 'cancel' 'help' {
-    .icon-#{$name} {
-        background-image: url('/images/#{$name}.png');
-    }
+@each $name in "save" "cancel" "help" {
+  .icon-#{$name} {
+    background-image: url("/images/#{$name}.png");
+  }
 }
 /* compiled CSS */
 .icon-save {
@@ -93,15 +94,15 @@ article {
 
 Tipo de dados em lista
 
-Pois é senhoras e senhores, é possível usar 
+Pois é senhoras e senhores, é possível usar
 
 ```scss
-$buttonConfig: 'save' 50px, 'cancel' 50px, 'help' 100px; // TODO: move to _settings.scss
+$buttonConfig: "save" 50px, "cancel" 50px, "help" 100px; // TODO: move to _settings.scss
 
 @each $tuple in $buttonConfig {
-    .button-#{nth($tuple, 1)} {
-        width: nth($tuple, 2);
-    }
+  .button-#{nth($tuple, 1)} {
+    width: nth($tuple, 2);
+  }
 }
 /* compiled CSS */
 .button-save {
@@ -119,10 +120,10 @@ Definindo Funções Customizadas
 
 ```scss
 @function make-greener($value) {
-    @return $value + rgb(0,50,0); // arithmetic with colors is totally fine, btw
+  @return $value + rgb(0, 50, 0); // arithmetic with colors is totally fine, btw
 }
 p {
-    background: make-greener(gray);
+  background: make-greener(gray);
 }
 /* compiled CSS */
 p {
@@ -140,16 +141,16 @@ Criar a arquitetura de um projeto de CSS é uma das coisas mais difíceis que se
 
 O Padrão 7-1
 
-*O padrão 7-1*: 7 pastas, 1 ficheiro. Basicamente, tudo o que tens são ficheiros parciais colocados em 7 pastas diferentes, e um único ficheiro na raiz do projeto (normalmente chamado`main.scss`) que importa todos os ficheiros parciais para serem compilados numa única folha de estilo de CSS.
+_O padrão 7-1_: 7 pastas, 1 ficheiro. Basicamente, tudo o que tens são ficheiros parciais colocados em 7 pastas diferentes, e um único ficheiro na raiz do projeto (normalmente chamado`main.scss`) que importa todos os ficheiros parciais para serem compilados numa única folha de estilo de CSS.
 
-* `base/`
-* `components/`
-* `layout/`
-* `pages/`
-* `themes/`
-* `abstracts/`
-* `vendors/`
-* `main.scss`
+- `base/`
+- `components/`
+- `layout/`
+- `pages/`
+- `themes/`
+- `abstracts/`
+- `vendors/`
+- `main.scss`
 
 ## Exemplo irado:
 

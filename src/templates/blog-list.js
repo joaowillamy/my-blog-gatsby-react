@@ -20,7 +20,7 @@ const BlogList = (props) => {
 	return (
 		<Layout>
 			<SEO
-				title="Blog | João Willamy"
+				title="Blog"
 				description="Um blog sobre desenvolvimento e outras coisas legais."
 				// image={post.frontmatter.image}
 			/>
