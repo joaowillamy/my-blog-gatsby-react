@@ -25,7 +25,7 @@ O monolítica é aquela aplicação que toda a base de código está tudo em um 
 
 ## Como o micro-frontends pode ajudar?
 
-Ainda é recente e não tem nada muito formal sobre isso, complicado até de conceituar, e cada empresa tem seu próprio jeito de fazer.Mas podemos entender assim: **Ao invés de ter que lidar com um único monstro, vamos dividi-lo em pequenos "monstrinhos".**
+Ainda é recente e não tem nada muito formal sobre isso, complicado até de conceituar, e cada empresa tem seu próprio jeito de fazer. Mas podemos entender assim: **Ao invés de ter que lidar com um único monstro, vamos dividi-lo em pequenos "monstrinhos".**
 
 ### **O objetivo**
 
@@ -39,7 +39,7 @@ Ainda é recente e não tem nada muito formal sobre isso, complicado até de con
 É possível colocar varias tecnologias diferentes na mesma pagina, mas o cuidado que se deve ter é da quantidade de arquivos baixados pelo o usuário isso pode comprometer a experiencia. 
 
 \
-Vou listar algumas das formas de se criar micro frontend dendo base alguns cases de sucesso:
+Vou listar algumas das formas de se criar micro-frontends tendo como base alguns cases de sucesso:
 
 * O Spotify usa micro-frontends em seu aplicativo de desktop, aproveitando iframes para costurar partes diferentes da mesma visualização. O problema é o não compartilhamento de status entre os elementos da pagina. [Veja mais](https://medium.com/dazn-tech/adopting-a-micro-frontends-architecture-e283e6a3c4f3).
 * A Airbnb usou a lib *hypernova* no ruby juntamente com o react uma estrategia bem especifica para o problemas deles de SEO. Pois as paginas são renderizadas no lado do servidor (**Server**-**side rendering -** SSR). [Veja mais](https://github.com/airbnb/hypernova).
