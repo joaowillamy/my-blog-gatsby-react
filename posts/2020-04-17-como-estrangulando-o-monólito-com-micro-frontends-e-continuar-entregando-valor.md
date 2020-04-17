@@ -1,8 +1,7 @@
 ---
-title: Como estrangulando o monólito com micro-frontends e continuar entregando valor?
+title: Como estrangulando o monólito com micro-frontends?
 description: Vamos discutir como sair do monólito?  Como continuar entregando
-  valor? É preciso criar um novo projeto? É preciso da manutenção em 2 projetos?
-  E como o micro-frontends pode ajudar?
+  valor? E como o micro-frontends pode ajudar?
 date: "2020-04-16 06:42:37"
 category: dev
 background: "#637a91"
@@ -22,10 +21,16 @@ O monolítica é aquela aplicação que toda a base de código está tudo em um 
 
   * Consiste em migrar constantemente um sistema legado, a principal vantagem é que permite agregar valor continuamente.
   * Porém, levamos mais tempo para estrangular o monólito, pois temos que lidar com a lógica existente, ao passo que adicionamos novas tecnologias.
+* **Mas será que consigo usar a tecnologia que eu desejo, continuar entregando valor e no futuro eliminar totalmente o monólito? Vamos vendo...**
 
 ## Como o micro-frontends pode ajudar?
 
-Ainda é recente e não tem nada muito formal sobre isso, complicado até de conceituar, e cada empresa tem seu próprio jeito de fazer.Mas podemos entender assim: **Ao invés de ter que lidar com um único monstro, vamos dividi-lo em minúsculos "monstrinhos".**
+Ainda é recente e não tem nada muito formal sobre isso, complicado até de conceituar, e cada empresa tem seu próprio jeito de fazer.Mas podemos entender assim: **Ao invés de ter que lidar com um único monstro, vamos dividi-lo em pequenos "monstrinhos".**
+
+### **O objetivo**
+
+* Um suporte para permitir **coexistir** diferentes estruturas de frontend, por exemplo, módulos mais antigos construídos em JQuery ou AngularJS 1.x, combinados com módulos mais recentes construídos em React ou Vue, podem coexistir numa mesma aplicação.
+* Além de poder dividir problemas **times** e cada equipe pode evoluir a aplicação em paralelo. Por exemplo, imagine que uma pagina de uma aplicação têm 3 componentes complicados: Chat, time-line e e-commerce. São 3 problemas, logo 3 times que podem trabalhar com tecnologias diferentes e totalmente isoladas. 
 
 ![Micro-frontend](assets/img/1_jo_lcfjbso70mfeomd9nga.png "Micro-frontend")
 
