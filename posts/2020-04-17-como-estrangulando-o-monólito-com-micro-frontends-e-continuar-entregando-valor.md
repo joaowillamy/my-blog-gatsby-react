@@ -46,4 +46,6 @@ Vou listar algumas das formas de se criar micro-frontends tendo como base alguns
 * Uma abordagem muito, MUITO BOA, é o uso do  “meta framework” **single-spa** [veja essa demo](https://single-spa.surge.sh/) Sendo um framework  javascript para front-end. [Veja Mais](https://github.com/single-spa/single-spa).
 * Web Components.
 
-Entre tantas outras... Existem varias maneiras de se conseguir, porém o que deve-se tomar o cuidado para resolver o seu problema com foco no seu objetivo e não criar um problema ainda maior.
+Existem varias abordagens diferentes, porém deve-se ter em mente o problema que deseja resolver e o cuidado para não criar um problema ainda maior. 
+
+Por hoje é só pessoal...
