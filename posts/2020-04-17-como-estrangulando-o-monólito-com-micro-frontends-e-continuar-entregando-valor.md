@@ -1,5 +1,5 @@
 ---
-title: Como estrangulando o monólito com micro-frontends?
+title: Como estrangular o monólito com micro-frontends?
 description: "Vamos discutir sobre: como sair do monólito?  Como continuar
   entregando valor? E como o micro-frontends pode ajudar?"
 date: "2020-04-16 06:42:37"
