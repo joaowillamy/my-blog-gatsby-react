@@ -1,5 +1,5 @@
 ---
-title: Como estrangulando o monólito com micro-frontends?
+title: Como estrangular o monólito com micro-frontends?
 description: "Vamos discutir sobre: como sair do monólito?  Como continuar
   entregando valor? E como o micro-frontends pode ajudar?"
 date: "2020-04-16 06:42:37"
@@ -7,11 +7,21 @@ category: dev
 background: "#637a91"
 image: assets/img/1_jo_lcfjbso70mfeomd9nga.png
 ---
-Vamos tentar responder a primeira pergunta:
+## Ser ou não ser monolítico, eis a questão?
+
+O monolítica é aquela aplicação que toda a base de código está tudo em um só lugar. Ou seja, as visões, regra negocio, dados e todas as funcionalidades estão definidas no mesmo bloco. 
+
+#### **Quando devo usar?**
+
+Mas quais são os **trade off,** Vamos analisar as vantagens de se usar: Em primeiro lugar a simplicidade da arquitetura, todo código é feito em uma unica tecnologia, dessa forma, o desenvolvimento tende a ser mais rápido. Então podemos usar quando temos times pequenos, ou para testar um MVP por exemplo pode ser bastante interessante.
+
+#### Quando não devo usar?
+
+Só vale apena sair do monólito se você realmente precisar. Porém há casos que realmente vale o sacrifico, é quando as desvantagens falam mais alto que as vantagens. Exemplo o sistema tem varias funcionalidades, financeiro, mensageiro, operação se por acaso ele cair, tudo para, ou seja, um único ponto de falha. Complicado escalar, pois tem que copiar todo code base para escalar a aplicação.
 
 ## Como sair do monólito?
 
-O monolítica é aquela aplicação que toda a base de código está tudo em um só lugar. Ou seja, as visões, regra negocio, dados e todas as funcionalidades estão definidas no mesmo bloco. E as vezes para o projeto continuar evoluindo, para dividir em times, conseguir dá manutenção é preciso estrangular o projeto ou começar um novo:
+E as vezes para o projeto continuar evoluindo, para dividir em times, conseguir dá manutenção é preciso estrangular o projeto ou começar um novo:
 
 * **Big Bang (A criação)**
 
